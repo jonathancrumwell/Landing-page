@@ -2,31 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">>
-        <!--Tab to edit-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A simple front page">
     <title>My Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@300;400;500&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="navbar_wrap"> <!--layout: where it sits-->
         <nav class="nav"> <!--meaning: this is the navigation-->
-            <a href="#">HOME</a>
-            <a href="#">LOOKBOOK</a>
-            <a href="#">SHOP</a>
-            <a href="#">PROCESS</a>
-            <a href="#">STORY</a>
-            <a href="#">CONTACT</a>
+            <a href="#" class="active">HOME</a>
+            <a href="#lookbook">LOOKBOOK</a>
+            <a href="#shop">SHOP</a>
+            <a href="#process">PROCESS</a>
+            <a href="#story">STORY</a>
+            <a href="#contact">CONTACT</a>
         </nav>
     </div>
     
     <main>
         <section class="hero">
             <div class="hero-media">
-                <img src="/ivory-flow-01.jpg" alt="Neutral living room with a sofa, round wooden coffee table and woven wall decor">
+                <img src="ivory-flow-01.jpg" alt="Neutral living room with a sofa, round wooden coffee table and woven wall decor">
                 <span class="hero-tag">Spring / Summer 2026</span>
             </div>
             <div class="hero-content">
-                <p class="first-phrase">Curates Living</p>
+                <p class="first-phrase">Curated Living</p>
                 <h1>The Art of<em> Quiet</em> Luxury</h1>
                 <p class="hero-content-text">Objects and interiors designed for the way you actually live - unhurried, tactile, and endlessly considered.<br>Images by Unsplash
                 </p>
@@ -40,43 +43,43 @@
                 <h2>
                     The Lookbook
                 </h2>
-                <span class="lookbook-count">01 - 06</span>
+                <span class="lookbook-count">01 — 06</span>
             </div>
             <div class="carousel">
                 <figure class="card">
-                    <img src="/ivory-flow-11.jpg" alt="Mustard yellow armchair beside a brass floor lamp">
+                    <img src="ivory-flow-11.jpg" alt="Mustard yellow armchair beside a brass floor lamp">
                     <figcaption>
-                        NO. 01 - LIVING
+                        NO. 01 — LIVING
                     </figcaption>
                 </figure>
                 <figure class="card">
-                    <img src="/ivory-flow-12.jpg" alt="Sideboard with plants and an orange armchair on a grey rug" />
+                    <img src="ivory-flow-12.jpg" alt="Sideboard with plants and an orange armchair on a grey rug" />
                     <figcaption>
-                        NO. 02 CERAMICS
+                        NO. 02 — CERAMICS
                     </figcaption>
                 </figure>
                 <figure class="card">
-                    <img src="/ivory-flow-13.jpg" alt="Bed with white linen and neutral cushions" />
+                    <img src="ivory-flow-13.jpg" alt="Bed with white linen and neutral cushions" />
                     <figcaption>
-                        NO. 03 TEXTILES
+                        NO. 03 — TEXTILES
                     </figcaption>
                 </figure>
                 <figure class="card">
-                    <img src="/ivory-flow-14.jpg" alt="Two adults cooking together with a red pot on the cooker" />
+                    <img src="ivory-flow-14.jpg" alt="Two adults cooking together with a red pot on the cooker" />
                     <figcaption>
-                        NO. 04 CRAFT
+                        NO. 04 — CRAFT
                     </figcaption>
                 </figure>
                 <figure class="card">
-                    <img src="/ivory-flow-15.jpg" alt="A modern house with the front door lights on" />
+                    <img src="ivory-flow-15.jpg" alt="A modern house with the front door lights on" />
                     <figcaption>
-                        NO. 05 BEDROOM
+                        NO. 05 — BEDROOM
                     </figcaption>
                 </figure>
                 <figure class="card">
-                    <img src="/ivory-flow-16.jpg" alt="A brightly lit well spacious room with two brown couches" />
+                    <img src="ivory-flow-16.jpg" alt="A brightly lit well spacious room with two brown couches" />
                     <figcaption>
-                        NO. 06 LIGHT
+                        NO. 06 — LIGHT
                     </figcaption>
                 </figure>
             </div>
@@ -95,7 +98,7 @@
         
         <section class="shop" id="shop">
             <div class="shop-media">
-                <img src="/ivory-flow-51.jpg" alt="A long green couch on a wooden floor" />
+                <img src="ivory-flow-51.jpg" alt="A long green couch on a wooden floor" />
             </div>
             <div class="shop-content">
                 <p class="signature">
@@ -106,9 +109,8 @@
                 <p class="price">
                     €2,840
                 </p>
-                <p class="sognature-text">Hand-upholstered in Oeko-Tex certified linen over a solid white oak frame. Each piece is numbered and made to order in our Copenhagen atelier.
+                <p class="signature-text">Hand-upholstered in Oeko-Tex certified linen over a solid white oak frame. Each piece is numbered and made to order in our Copenhagen atelier.
                 </p>
-                <hr />
                 <dl class="shop-specs">
                     <div class="spec">
                         <dt>
@@ -124,7 +126,6 @@
                             W78×D82×H74cm
                         </dd>
                     </div>
-                    <hr />
                     <div class="spec">
                         <dt>
                             LEAD TIME
@@ -142,7 +143,6 @@
                         </dd>
                     </div>
                 </dl>
-                <hr />
                 <div class="shop-spec-actions">
                     <button type="button" class="add-btn">
                         ADD TO CART-€2,840
@@ -212,7 +212,7 @@
         </section>
         
         <section class="film" id="story">
-            <img class="film-bg"src="/ivory-flow-61.jpg" alt="" />
+            <img class="film-bg" src="ivory-flow-61.jpg" alt="" />
             <div class="film-content">
                 <button type="button" class="play-btn" aria-label="Play the Quiet Studio Film">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-play preview-icon"><path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"/><circle cx="12" cy="12" r="10"/></svg>
