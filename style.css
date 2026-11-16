@@ -1,0 +1,13 @@
+:root{
+  --bg: #fafafa;
+  --bg-warm: #f7f0ea;
+  --ink:#1a1a1a;
+  --muted: #666;
+  --faint: #aaa;
+  --line: #e6e0d8;
+  --accent: #d9623f;
+  
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --sans: "Inter", system-ui, sans-seriff;
+  --mono: "Space Mono", ui-monospace, monospace;
+}
