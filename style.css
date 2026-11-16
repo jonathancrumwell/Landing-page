@@ -11,3 +11,11 @@
   --sans: "Inter", system-ui, sans-seriff;
   --mono: "Space Mono", ui-monospace, monospace;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
