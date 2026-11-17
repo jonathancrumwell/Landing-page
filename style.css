@@ -19,3 +19,15 @@
 html{
   scroll-behavior: smooth;
 }
+body{
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 300;
+  color: var(--ink);
+  background: var(--bg);
+}
+h1, h2, h3, p, figure,dl, dd, ol{
+  margin: 0;
+  padding: 0;
+}
+
