@@ -31,3 +31,13 @@ h1, h2, h3, p, figure,dl, dd, ol{
   padding: 0;
 }
 
+.navbar_wrap{
+  position: fixed;
+  top: 16px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  pointer-events: none;
+}
