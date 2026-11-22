@@ -67,16 +67,3 @@ h1, h2, h3, p, figure,dl, dd, ol{
   background: #000;
   color: #fff;
 }
-.hero {
-  display: grid;
-  grid-template-columns: 1.05fr 1fr;
-  min-height: 100vh;
-}
-.hero-media{
-  position: relative;
-} 
-.hero-media img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
