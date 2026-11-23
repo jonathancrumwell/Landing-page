@@ -32,20 +32,18 @@ h1, h2, h3, p, figure,dl, dd, ol{
 }
 
 .navbar_wrap{
-  position: fixed;
+  position: absolute;
   top: 16px;
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center;
   z-index: 100;
-  pointer-events: none;
+  justify-content: center;
 }
 .nav{
   pointer-events: auto;
   display: flex;
   gap: 4px;
-  padding: 6px;
   background: rgba(250, 250, 250, 0.85);
   backdrop-filter: blur(12px);
   border-radius: 999px;
@@ -66,4 +64,9 @@ h1, h2, h3, p, figure,dl, dd, ol{
 .nav a.active{
   background: #000;
   color: #fff;
+}
+.hero{
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
