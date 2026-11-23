@@ -67,11 +67,12 @@ h1, h2, h3, p, figure,dl, dd, ol{
 }
 .hero{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  min-height: 100vh;
 }
 .hero-media{
   
 }
 .hero-content{
-  
+  background: #fff;
 }
