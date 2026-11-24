@@ -80,9 +80,14 @@ img{
   position: absolute;
   left: 30px;
   bottom: 32px;
-  padding: 4px 8px;
+  padding: 4px 22px;
   background: #797470;
   color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-family: var(--serif);
 }
 .hero-media img{
   display: block;
