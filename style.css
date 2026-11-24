@@ -76,6 +76,10 @@ img{
 .hero-media{
   position: relative;
 }
+.hero-media .hero-tag{
+  position: absolute;
+  bottom: 20px;
+}
 .hero-media img{
   display: block;
   width: 100%;
