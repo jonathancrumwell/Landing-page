@@ -89,7 +89,9 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0 clamp(32px, 8vw, 120px);
+  align-items: flex-start;
+  padding: 0;
+  padding-right: clamp(32px, 8vw, 120px);
+  padding-left: 50px;
   background: var(--bg);
 }
