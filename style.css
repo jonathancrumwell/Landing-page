@@ -79,6 +79,8 @@ img{
 .hero-media .hero-tag{
   position: absolute;
   bottom: 20px;
+  background: #797470;
+  color: #fff;
 }
 .hero-media img{
   display: block;
