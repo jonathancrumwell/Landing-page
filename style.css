@@ -242,3 +242,12 @@ img{
   height: 18px;
   stroke-width: 1.5;
 }
+.shop{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+.shop-media img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
