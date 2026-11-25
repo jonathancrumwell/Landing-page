@@ -95,6 +95,7 @@ img{
   height: auto;
 }
 .hero-content{
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,4 +104,19 @@ img{
   padding-right: clamp(32px, 8vw, 120px);
   padding-left: 50px;
   background: var(--bg);
+}
+.first-phrase{
+  margin-bottom: 250px;
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  word-spacing: 4px;
+  letter-spacing: 0.25em;
+}
+.hero h1{
+  margin-bottom: 100px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 60px;
 }
