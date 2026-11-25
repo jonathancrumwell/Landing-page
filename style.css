@@ -106,7 +106,8 @@ img{
   background: var(--bg);
 }
 .first-phrase{
-  margin-bottom: 50px;
+  position: absolute;
+  bottom: 670px;
   color: var(--accent);
   font-family: var(--mono);
   font-size: 10px;
@@ -115,12 +116,29 @@ img{
   letter-spacing: 0.25em;
 }
 .hero h1{
-  margin-bottom: 103px;
+  position: absolute;
+  bottom: 395px;
   font-family: var(--serif);
   font-weight: 300;
-  font-size: 60px;
+  font-size: 67px;
+  letter-spacing: 3px;
   column-gap: 3em;
 }
 .hero h1 em{
+  color: var(--accent);
+}
+.hero-content-text{
+  position: absolute;
+  top: 540px;
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--faint);
+}
+.link-cta{
+  position: absolute;
+  top: 680px;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--sans);
   color: var(--accent);
 }
