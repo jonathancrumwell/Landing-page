@@ -178,5 +178,30 @@ img{
   letter-spacing: 0.15em;
 }
 .carousel{
+  display: flex;
+  gap: 24px;
+  padding:0 48px 8px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 48px;
+  scrollbar-width: none;
+}
+.carousel::webkit-scrollbar{
+  display: none;
+}
+.card{
+  flex: 0 0 min(260px 75vw);
+  scroll-snap-align: start;
+}
+.card img{
+  display: block;
+  width: 100%;
+  aaspect-ratio: 3/4;
+  object-fit: cover;
+  background: #fff;
+  border: 6px solid #fff;
+  border-radius: 28px;
+}
+.card figcaption{
   
 }
