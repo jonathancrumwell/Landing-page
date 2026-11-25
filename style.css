@@ -102,11 +102,11 @@ img{
   align-items: flex-start;
   padding: 0;
   padding-right: clamp(32px, 8vw, 120px);
-  padding-left: 50px;
+  padding-left: 60px;
   background: var(--bg);
 }
 .first-phrase{
-  margin-bottom: 250px;
+  margin-bottom: 50px;
   color: var(--accent);
   font-family: var(--mono);
   font-size: 10px;
@@ -115,8 +115,12 @@ img{
   letter-spacing: 0.25em;
 }
 .hero h1{
-  margin-bottom: 100px;
+  margin-bottom: 103px;
   font-family: var(--serif);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 60px;
+  column-gap: 3em;
+}
+.hero h1 em{
+  color: var(--accent);
 }
