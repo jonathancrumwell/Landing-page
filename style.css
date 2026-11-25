@@ -142,3 +142,24 @@ img{
   font-family: var(--sans);
   color: var(--accent);
 }
+.est{
+  position: absolute;
+  right: 24px;
+  top: 40%;
+  writing-mode: vertical-lr;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+.lookbook{
+  padding: 72px 0 56px;
+  background: var(--bg-warm);
+}
+.lookbook-header, .lookbook-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+}
