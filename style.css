@@ -133,6 +133,7 @@ img{
   font-size: 18px;
   font-weight: 300;
   color: var(--faint);
+  line-height: 1.7;
 }
 .etc{
   position: absolute;
@@ -286,4 +287,10 @@ img{
   color: var(--muted);
   font-size: 12px;
   line-height: 1.7;
+}
+.shop-content hr{
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-top: 1px solid var(--line);
 }
