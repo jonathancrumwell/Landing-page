@@ -342,3 +342,24 @@ img{
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.process{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 48px;
+  padding: 96px clamp(32px, 7vw, 100px);
+  background: #1a1a1a;
+  color: #f2ede6;
+}
+.process-intro h2{
+  margin-bottom: 16px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.75em, 3vw, 2.25rem);
+  line-height: 1.2;
+}
+.process-intro p{
+  max-width: 44ch;
+  color: #b9b2a8;
+  font-size: 14px;
+  line-height: 1.7;
+}
