@@ -444,3 +444,31 @@ img{
 .film-content button svg path{
   fill: currentColor;
 }
+.film h2{
+  max-width: 5.5em;
+  margin-bottom: 20px;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  line-height: 1.15;
+}
+.film p{
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.film .link-cta{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+}
+.footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent);
+  font-family: var(--serif);
+  font-weight: 400;
+}
